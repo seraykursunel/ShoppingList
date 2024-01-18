@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: thistle;
+  padding: 10px;
+  margin: 50px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px;
+}
+
+li {
+  padding: 2px;
+  width: 130px;
+}
+
+button {
+  background-color: #fff;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  cursor: pointer;
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+}
+
+span {
+  width: 100px;
+  cursor: pointer;
+}
+
+input {
+  height: 20px;
+}
